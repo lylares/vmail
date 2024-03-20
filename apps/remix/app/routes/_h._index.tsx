@@ -27,7 +27,7 @@ import { useTranslation } from "react-i18next";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "Vmail - Virtual Temporary Email" },
+    { title: "Virtual Email - Virtual Temporary Email" },
     {
       name: "description",
       content:
