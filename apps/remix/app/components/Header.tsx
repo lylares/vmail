@@ -10,7 +10,7 @@ export default function Header() {
       <Link to="/" className="font-bold flex items-center justify-center gap-3">
         <VmailLogo />
         <button className="cool-btn">
-          <span>VMAIL.DEV</span>
+          <span>Temp Email</span>
         </button>
       </Link>
 
@@ -23,12 +23,6 @@ export default function Header() {
         to="/privacy"
         className="ml-3 md:ml-8 text-sm md:text-base hidden md:block">
         {t("Privacy")}
-      </Link>
-      <Link
-        className="ml-3 md:ml-8 "
-        to="https://www.producthunt.com/posts/vmail-2"
-        target="_blank">
-        <Follow />
       </Link>
     </div>
   );
