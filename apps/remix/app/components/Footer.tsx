@@ -24,13 +24,7 @@ export default function Footer() {
         <Link to="/privacy">{t("Privacy")}</Link>
       </div>
       <div className="inline-flex justify-center mt-4 space-x-5 sm:ml-auto sm:mt-0 sm:justify-start">
-        <Link
-          to="https://github.com/yesmore/vmail"
-          target="_blank"
-          title="Github"
-          className="text-gray-400 hover:text-gray-500">
-          <Github />
-        </Link>
+
       </div>
     </div>
   );
