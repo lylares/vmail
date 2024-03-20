@@ -17,7 +17,7 @@ export default function Footer() {
         to="/"
         target="_blank">
         {" "}
-        © 2024 Products of Yesmore
+        © 2024 Power by Yesmore
       </Link>
       <div className="flex items-center gap-3 mt-3 md:hidden text-sm text-gray-300">
         <Link to="/about">{t("About")}</Link>
